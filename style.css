@@ -1,0 +1,31 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.div1
+{
+  float: left;
+  width: 25%;
+  border: 1px solid red;
+  text-align: center;
+}
+
+
+@media (min-width: 400px) and (max-width: 700px) {
+   .div1
+  {
+    float: left;
+    width: 50%;
+
+  }
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+   .div1
+  {
+    float: none;
+    width: 100%;
+
+  }
+}
